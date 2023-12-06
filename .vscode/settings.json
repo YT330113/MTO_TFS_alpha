@@ -1,0 +1,31 @@
+{
+    "files.associations": {
+        "MTO_TFS.C": "cpp",
+        "opt_initialization.H": "cpp",
+        "MMA.C": "cpp",
+        "tractionDisplacementFvPatchVectorField.C": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "*.tcc": "cpp",
+        "adjointShapeOptimizationFoam.C": "cpp",
+        "*Dict": "OpenFOAM",
+        "*Properties": "OpenFOAM",
+        "fvSchemes": "OpenFOAM",
+        "fvSolution": "OpenFOAM",
+        "**/constant/g": "OpenFOAM",
+        "**/0/*": "OpenFOAM",
+        "IOobject.C": "cpp"
+    },
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "${FOAM_SRC}/**",
+        "/usr/lib/gcc/**",
+        "/usr/lib/gcc/x86_64-linux-gnu/7/include/**",
+        "/usr/local/include/**",
+        "/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/**",
+        "/usr/include/x86_64-linux-gnu/**",
+        "/usr/include/**"
+    ],
+    "C_Cpp.errorSquiggles": "disabled",
+    
+}
