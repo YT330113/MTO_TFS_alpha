@@ -20,7 +20,6 @@ xh.correctBoundaryConditions();
 if(runTime.writeTime())
 {
    xh.write();  
-   T.write();
 }
 
 //流体问题一些参数的放松
@@ -42,8 +41,11 @@ alphaMax.value()=Foam::min(alphaMax.value(),alphaMAX.value());
 //   qu=0.01+(opt-rex)*1e-4;
 // }
 qu=Foam::min(qu,0.02);
+
+// MMA放松
 move=move-0.004;
 move = std::max(0.4, move);
+
 //材料参数更新
 alpha=alphaMax*qu*(1-xh)/(qu+xh);
 DT=(ks+(kf-ks)*xh*(1+qu)/(qu+xh))/rhoc;
