@@ -30,7 +30,12 @@
         "fstream": "cpp",
         "fvcVolumeIntegrate.C": "cpp",
         "typeindex": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "fvSchemes.C": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "adiTractionDisplacementFvPatchVectorField.C": "cpp",
+        "adjTractionDisplacementFvPatchVectorField.C": "cpp"
     },
     "C_Cpp.default.includePath": [
         "${workspaceFolder}/**",

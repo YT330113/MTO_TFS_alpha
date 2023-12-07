@@ -1,42 +1,41 @@
 Info<< "\nslove AdjD_Complicande\n" << endl;
 
-initialResidual = 0;
+initialResidual = 0;    // 收敛准则暂时设置和D一样
 iCorr=0;
 do
 {
   {
-      fvVectorMatrix DEqn
+      fvVectorMatrix DaEqn
       (
-          fvm::d2dt2(D)
+          fvm::d2dt2(Da)
        ==
-          fvm::laplacian(2*mu + lambda, D, "laplacian(DD,D)")
-        + divSigmaExp
-        //- fvc::grad(threeKalpha*T)
+          fvm::laplacian(2*mu + lambda, Da, "laplacian(DD,Da)")
+        + divSigmaExp_Da
       );
 
-      initialResidual = DEqn.solve().max().initialResidual();
+      initialResidual = DaEqn.solve().max().initialResidual();
 
       if (!compactNormalStress)
       {
-          divSigmaExp = fvc::div(DEqn.flux());
+          divSigmaExp_Da = fvc::div(DaEqn.flux());
       }
   }
 
   {
-      volTensorField gradD(fvc::grad(D));
-      sigmaD = mu*twoSymm(gradD) + (lambda*I)*tr(gradD);
+      volTensorField gradDa(fvc::grad(Da));
+      sigmaDa = mu*twoSymm(gradDa) + (lambda*I)*tr(gradDa);
 
       if (compactNormalStress)
       {
-          divSigmaExp = fvc::div
+          divSigmaExp_Da = fvc::div
           (
-              sigmaD - (2*mu + lambda)*gradD,
-              "div(sigmaD)"
+              sigmaDa - (2*mu + lambda)*gradDa,
+              "div(sigmaDa)"
           );
       }
       else
       {
-          divSigmaExp += fvc::div(sigmaD);
+          divSigmaExp_Da += fvc::div(sigmaDa);
       }
   }
 

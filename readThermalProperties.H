@@ -32,31 +32,42 @@ volScalarField DT // DT = k/rho/C,问题是固体与流体的 rho 和 C 都不�
     (ks+(kf-ks)*xh*(1+qu)/(qu+xh))/rhoc
 );
 Info<< "Reading field T\n" << endl;
-    volScalarField T
+volScalarField T
+(
+    IOobject
     (
-        IOobject
-        (
-            "T",
-            runTime.timeName(),
-            mesh,
-            IOobject::MUST_READ,
-            IOobject::AUTO_WRITE
-        ),
-        mesh
-    );
-Info<< "Reading field Tb\n" << endl;
-   volScalarField Tb
-   (
-       IOobject
-       (
-           "Tb",
-           runTime.timeName(),
-           mesh,
-           IOobject::MUST_READ,
-           IOobject::AUTO_WRITE
-       ),
-       mesh
-   ); 
+        "T",
+        runTime.timeName(),
+        mesh,
+        IOobject::MUST_READ,
+        IOobject::AUTO_WRITE
+    ),
+    mesh
+);
+volScalarField Tb   // 求平均温度的灵敏度
+(
+    IOobject
+    (
+        "Tb",
+        runTime.timeName(),
+        mesh,
+        IOobject::MUST_READ,
+        IOobject::AUTO_WRITE
+    ),
+    mesh
+); 
+volScalarField Tc   // 求柔度的灵敏度
+(
+    IOobject
+    (
+        "Tc",
+        runTime.timeName(),
+        mesh,
+        IOobject::MUST_READ,
+        IOobject::AUTO_WRITE
+    ),
+    mesh
+); 
 volScalarField T2(T);
 volScalarField fsensMeanT
 (

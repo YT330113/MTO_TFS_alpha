@@ -7,6 +7,8 @@ adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.C
 
 tractionDisplacement/tractionDisplacementFvPatchVectorField.C
 
+adjTractionDisplacement/adjTractionDisplacementFvPatchVectorField.C
+
 MMA/MMA.C
 
 MTO_TFS.C

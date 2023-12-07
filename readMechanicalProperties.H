@@ -39,6 +39,7 @@ volVectorField D
     mesh
 );
 
+
 // gradD 和 sigmaD 用于计算柔度
 volTensorField gradD
 (
@@ -104,3 +105,65 @@ volScalarField gsensCompliance
     zeroGradientFvPatchScalarField::typeName
 );
 volScalarField gsenshCompliance(gsensCompliance);
+
+
+// 热应力伴随
+volVectorField Da  // 柔度的伴随位移
+(
+    IOobject
+    (
+        "Da",
+        runTime.timeName(),
+        mesh,
+        IOobject::MUST_READ,
+        IOobject::AUTO_WRITE
+    ),
+    mesh
+);
+volTensorField gradDa
+(
+    IOobject
+    (
+        "gradDa",
+        runTime.timeName(),
+        mesh,
+        IOobject::NO_READ,
+        IOobject::NO_WRITE
+    ),
+      fvc::grad(Da)
+);
+volSymmTensorField sigmaDa 
+(
+    IOobject
+    (
+        "sigmaDa",
+        runTime.timeName(),
+        mesh,
+        IOobject::NO_READ,
+        IOobject::NO_WRITE
+    ),
+    mu*twoSymm(gradDa) + (lambda*I)*tr(gradDa)
+);
+
+// explicit part of div(sigmaDa)
+volVectorField divSigmaExp_Da
+(
+    IOobject
+    (
+        "divSigmaExp_Da",
+        runTime.timeName(),
+        mesh,
+        IOobject::NO_READ,
+        IOobject::NO_WRITE
+    ),
+    fvc::div(sigmaDa)
+);
+if (compactNormalStress)
+{
+    divSigmaExp_Da -= fvc::laplacian(2*mu + lambda, Da, "laplacian(DD,Da)");
+}
+else
+{
+    divSigmaExp_Da -= fvc::div((2*mu + lambda)*fvc::grad(Da), "div(sigmaDa)");
+}
+mesh.setFluxRequired(Da.name());

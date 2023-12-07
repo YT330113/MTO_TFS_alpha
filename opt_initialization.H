@@ -20,6 +20,8 @@ dimensionedScalar b1("b1", dimensionSet(0, 2, -2, -2, 0, 0, 0), 1.0);
 double len = std::pow(area / N, 1.0 / 3); // 估算单元平均尺寸
 b.value() = 1.0 / (filterR * len / 3.464) / (filterR * len / 3.464); // PDE过滤参数
 
+dimensionedScalar RHS_Tb("RHS_Tb", dimensionSet(0,0,-1,1,0,0,0),1/area/rhoc.value()); // 平均温度的伴随温度方程的右端项，为了匹配量纲
+
 // MMA算法相关
 double move = movlim; // move值用于放松，随迭代变化，movlim是固定的
 int m = 3;            // number of constraint
