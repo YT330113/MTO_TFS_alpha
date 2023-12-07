@@ -10,19 +10,20 @@ IOdictionary mechanicalProperties
         IOobject::NO_WRITE
     )
 );
-int iCorr=0,nCorr=200;
-scalar convergenceTolerance(5e-6),initialResidual(0);
+int iCorr = 0, nCorr = 200;
+scalar convergenceTolerance(5e-6), initialResidual(0);
 
 Switch planeStress(mechanicalProperties.lookup("planeStress"));
-dimensionedScalar rhoE("rhoE", dimMass/dimLength/sqr(dimTime),readScalar(mechanicalProperties.lookup("rhoE")));
-dimensionedScalar rho("rho",  dimMass/dimVolume,readScalar(mechanicalProperties.lookup("rho")));
+dimensionedScalar rhoE("rhoE", dimMass / dimLength / sqr(dimTime), readScalar(mechanicalProperties.lookup("rhoE")));
+dimensionedScalar rho("rho", dimMass / dimVolume, readScalar(mechanicalProperties.lookup("rho")));
 scalar Po(readScalar(mechanicalProperties.lookup("Po")));
-dimensionedScalar E(rhoE/rho);
-dimensionedScalar Emin(E*1e-9);
-double qd=0.1;
-volScalarField mu(qd*(1-xh)/(qd+xh)*(E-Emin)/(2.0*(1.0+Po))+Emin/(2.0*(1.0+Po)));
-volScalarField lambda(qd*(1-xh)/(qd+xh)*Po*(E-Emin)/((1.0+Po)*(1.0-2.0*Po))+Po*Emin/((1.0+Po)*(1.0-2.0*Po)));
-volScalarField threeK(3*lambda+2*mu);
+dimensionedScalar E(rhoE / rho);
+dimensionedScalar Emin(E * 1e-9);
+double qd = 0.1;
+volScalarField mu(qd * (1 - xh) / (qd + xh) * (E - Emin) / (2.0 * (1.0 + Po)) + Emin / (2.0 * (1.0 + Po)));
+volScalarField lambda(qd * (1 - xh) / (qd + xh) * Po * (E - Emin) / ((1.0 + Po) * (1.0 - 2.0 * Po)) + Po * Emin / ((1.0 + Po) * (1.0 - 2.0 * Po)));
+
+volScalarField threeK(3 * lambda + 2 * mu);   // 热膨胀相关
 
 Info<< "Reading field D\n" << endl;
 volVectorField D
@@ -38,6 +39,7 @@ volVectorField D
     mesh
 );
 
+// gradD 和 sigmaD 用于计算柔度
 volTensorField gradD
 (
     IOobject
@@ -50,9 +52,7 @@ volTensorField gradD
     ),
       fvc::grad(D)
 );
-
-Info<< "Calculating stress field sigmaD\n" << endl;
-volSymmTensorField sigmaD
+volSymmTensorField sigmaD // 注意，sigmaD不是真的应力，差个密度
 (
     IOobject
     (
@@ -65,7 +65,7 @@ volSymmTensorField sigmaD
     mu*twoSymm(gradD) + (lambda*I)*tr(gradD)
 );
 
-Info<< "Calculating explicit part of div(sigma) divSigmaExp\n" << endl;
+// explicit part of div(sigma)
 volVectorField divSigmaExp
 (
     IOobject
@@ -78,9 +78,7 @@ volVectorField divSigmaExp
     ),
     fvc::div(sigmaD)
 );
-
 Switch compactNormalStress("yes");
-
 if (compactNormalStress)
 {
     divSigmaExp -= fvc::laplacian(2*mu + lambda, D, "laplacian(DD,D)");
@@ -91,6 +89,7 @@ else
 }
 mesh.setFluxRequired(D.name());
 
+// 柔度的灵敏度
 volScalarField gsensCompliance
 (
     IOobject
@@ -105,5 +104,3 @@ volScalarField gsensCompliance
     zeroGradientFvPatchScalarField::typeName
 );
 volScalarField gsenshCompliance(gsensCompliance);
-
-

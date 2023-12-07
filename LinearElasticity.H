@@ -41,3 +41,46 @@ do
   }
 
 } while (initialResidual > convergenceTolerance && ++iCorr < nCorr);
+
+// 计算应力应变
+gradD = fvc::grad(D);
+sigmaD = mu * twoSymm(gradD) + (lambda * I) * tr(gradD);
+
+// 输出位移及等效应力
+if (runTime.writeTime())
+{
+   D.write();
+
+   volSymmTensorField sigma
+    (
+        IOobject
+        (
+            "sigma",
+            runTime.timeName(),
+            mesh,
+            IOobject::NO_READ,
+            IOobject::AUTO_WRITE
+        ),
+        rho*sigmaD
+    );
+
+    if (thermalStress)
+    {
+        sigma = sigma - I*(rho*threeKalpha*T);
+    }
+
+    volScalarField sigmaEq
+    (
+        IOobject
+        (
+            "sigmaEq",
+            runTime.timeName(),
+            mesh,
+            IOobject::NO_READ,
+            IOobject::AUTO_WRITE
+        ),
+        sqrt((3.0/2.0)*magSqr(dev(sigma)))
+    );
+    sigmaEq.write();
+}
+

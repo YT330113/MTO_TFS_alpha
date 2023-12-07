@@ -1,4 +1,4 @@
-for(i=0;i<40;i++)
+for (i = 0; i < 40; i++)
 {
 MRF.correctBoundaryVelocity(U);
 tmp<fvVectorMatrix> tUEqn
@@ -77,6 +77,17 @@ U.storePrevIter();
 p.storePrevIter();
 phi.storePrevIter();
 
+}
+
+// 输出速度场信息
+for (i = 0; i < n; i++)
+{
+   Umag[i] = U[i][0] * U[i][0] + U[i][1] * U[i][1] + U[i][2] * U[i][2];
+}
+if (runTime.writeTime())
+{
+   Umag.write();
+   // U.write();
 }
 
 

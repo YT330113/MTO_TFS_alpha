@@ -21,3 +21,9 @@ TEqn.solve();
 //          TEqn.solve();
 //          fvOptions.correct(T);
 // }
+
+// 输出温度场
+if (runTime.writeTime())
+{
+  T.write();
+}

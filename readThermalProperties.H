@@ -16,7 +16,10 @@ dimensionedScalar kf(thermalProperties.lookup("kf"));//Thermal Conductivity of f
 dimensionedScalar ks(thermalProperties.lookup("ks"));//Thermal Conductivity of solid
 dimensionedScalar Q("Q", dimensionSet(0,0,-1,1,0,0,0),10000000.0/4180000);
 
-volScalarField DT
+Switch thermalStress(thermalProperties.lookup("thermalStress"));
+
+
+volScalarField DT // DT = k/rho/C,问题是固体与流体的 rho 和 C 都不相同呀！
 (
     IOobject
     (
