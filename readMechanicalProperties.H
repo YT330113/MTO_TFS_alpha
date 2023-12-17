@@ -101,7 +101,7 @@ volScalarField gsensCompliance
         IOobject::NO_READ,
         IOobject::AUTO_WRITE
     ),
-    -gradD&&(rho*(3*xh*xh*(E-Emin)/(2.0*(1.0 + Po))*twoSymm(gradD))),
+    -gradD&&(rho*(3*xh*xh*(E-Emin)/(2.0*(1.0 + Po))*twoSymm(gradD))),  // 这里量纲不对，要给成 0 2 -3 0
     zeroGradientFvPatchScalarField::typeName
 );
 volScalarField gsenshCompliance(gsensCompliance);

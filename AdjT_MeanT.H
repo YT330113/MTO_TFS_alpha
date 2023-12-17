@@ -1,3 +1,5 @@
+Info<< "\nadjoint analyse of Mean T\n" << endl;
+
 //Tb=T2;
 fvScalarMatrix TEqnb
 (

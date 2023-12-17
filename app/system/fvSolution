@@ -49,7 +49,7 @@ solvers
         tolerance       1e-5;
         relTol          0;
     } 
-     "(Ta|Tb)"
+     "(Ta|Tb|Tc)"
     {
         solver          PBiCGStab;
         preconditioner  DILU;

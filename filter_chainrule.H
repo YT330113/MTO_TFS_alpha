@@ -1,4 +1,3 @@
-gsenshVol.primitiveFieldRef() = 1.0;
 
 //不可设计域的灵敏度置零
 if(solid_area)

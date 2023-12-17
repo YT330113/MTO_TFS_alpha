@@ -35,7 +35,13 @@
         "chrono": "cpp",
         "limits": "cpp",
         "adiTractionDisplacementFvPatchVectorField.C": "cpp",
-        "adjTractionDisplacementFvPatchVectorField.C": "cpp"
+        "adjTractionDisplacementFvPatchVectorField.C": "cpp",
+        "adjointOutletPressurePowerFvPatchScalarField.C": "cpp",
+        "adjointOutletPressureHeatFvPatchScalarField.C": "cpp",
+        "adjointOutletVelocityHeatFvPatchVectorField.C": "cpp",
+        "adjointOutletVelocityPowerFvPatchVectorField.C": "cpp",
+        "adjointOutletPressureComplianceFvPatchScalarField.C": "cpp",
+        "adjointOutletVelocityComplianceFvPatchVectorField.C": "cpp"
     },
     "C_Cpp.default.includePath": [
         "${workspaceFolder}/**",

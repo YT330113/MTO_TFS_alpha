@@ -54,7 +54,7 @@ autoPtr<incompressible::turbulenceModel> turbulence
 (
     incompressible::turbulenceModel::New(U, phi, laminarTransport)
 );
-//****************************************************************//adj-fluid-a
+//****************************************************************//adj-PowerDiss
 Info<< "Reading field pa\n" << endl;
 volScalarField pa
 (
@@ -104,7 +104,7 @@ setRefCell
     paRefValue
 );
 mesh.setFluxRequired(pa.name());
-//****************************************************************//adj-fluid-b
+//****************************************************************//adj-MeanT
 Info<< "Reading field pb\n" << endl;
 volScalarField pb
 (
@@ -154,6 +154,58 @@ setRefCell
     pbRefValue
 );
 mesh.setFluxRequired(pb.name());
+
+//****************************************************************//adj-Compliance
+Info<< "Reading field pc\n" << endl;
+volScalarField pc
+(
+    IOobject
+    (
+        "pc",
+        runTime.timeName(),
+        mesh,
+        IOobject::MUST_READ,
+        IOobject::AUTO_WRITE
+    ),
+    mesh
+);
+Info<< "Reading field Uc\n" << endl;
+volVectorField Uc
+(
+    IOobject
+    (
+        "Uc",
+        runTime.timeName(),
+        mesh,
+        IOobject::MUST_READ,
+        IOobject::AUTO_WRITE
+    ),
+    mesh
+);
+Info<< "Reading/calculating face flux field phic\n" << endl;
+surfaceScalarField phic
+(
+    IOobject
+    (
+        "phic",
+        runTime.timeName(),
+        mesh,
+        IOobject::READ_IF_PRESENT,
+        IOobject::AUTO_WRITE
+    ),
+    linearInterpolate(Uc) & mesh.Sf()
+);
+label pcRefCell = 0;
+scalar pcRefValue = 0.0;
+setRefCell
+(
+    pc,
+    simple.dict(),
+    pcRefCell,
+    pcRefValue
+);
+mesh.setFluxRequired(pc.name());
+
 
 //*****************************************************//
 volScalarField gsensPowerDiss

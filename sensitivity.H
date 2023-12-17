@@ -1,11 +1,14 @@
 
 Info<<"sensitivity analysis"<<endl;
 //计算灵敏度
-fsenshMeanT=-alphaMax*(1+qu)*qu/((qu+xh)*(qu+xh))*(U&Ub)+b1*(kf-ks)*(1+qu)*qu/((qu+xh)*(qu+xh))*(fvc::grad(T)&fvc::grad(Tb))/rhoc;
-gsenshPowerDiss=-alphaMax*(1+qu)*qu/((qu+xh)*(qu+xh))*(U&Ua);
+gsenshPowerDiss=-alphaMax*(1+qu)*qu/((qu+xh)*(qu+xh))*(U&Ua);  // 这里少乘一个单元体积
+fsenshMeanT=-alphaMax*(1+qu)*qu/((qu+xh)*(qu+xh))*(U&Ub)+b1*(kf-ks)*(1+qu)*qu/((qu+xh)*(qu+xh))*(fvc::grad(T)&fvc::grad(Tb))/rhoc; // 也没有乘单元体积
 mu=-(1+qd)*qd/((qd+xh)*(qd+xh))*(E-Emin)/(2.0*(1.0+Po));
 lambda=-(1+qd)*qd/((qd+xh)*(qd+xh))*Po*(E-Emin)/((1.0+Po)*(1.0-2.0*Po));
-gsenshCompliance=-gradD && (rho*(mu*twoSymm(gradD)+ (lambda*I)*tr(gradD)));
+gsenshCompliance=-alphaMax*(1+qu)*qu/((qu+xh)*(qu+xh))*(U&Uc)
+   +b1*(kf-ks)*(1+qu)*qu/((qu+xh)*(qu+xh))*(fvc::grad(T)&fvc::grad(Tc))/rhoc
+   -b3_c*(gradDa && (rho*(mu*twoSymm(gradD)+ (lambda*I)*tr(gradD))));
+gsenshVol.primitiveFieldRef() = 1.0;
 
 //链式求导计算对物理密度的灵敏度
 #include "filter_chainrule.H"

@@ -15,13 +15,13 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-numberOfSubdomains 2;//并行分区数
+numberOfSubdomains 4;//并行分区数
 
 method          simple;
 
 simpleCoeffs
 {
-    n               (1 1 2);
+    n               (1 1 4);
     delta           0.001;
 }
 

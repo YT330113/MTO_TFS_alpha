@@ -1,4 +1,4 @@
-Info<< "\nslove AdjD_Complicande\n" << endl;
+Info<< "\nadjoint analyse of Complicande\n" << endl;
 
 initialResidual = 0;    // 收敛准则暂时设置和D一样
 iCorr=0;
@@ -40,3 +40,6 @@ do
   }
 
 } while (initialResidual > convergenceTolerance && ++iCorr < nCorr);
+
+// 用于灵敏度表达式
+gradDa = fvc::grad(Da);

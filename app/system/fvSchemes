@@ -32,6 +32,7 @@ gradSchemes
     grad(Da)        leastSquares;
     grad(Ta)        leastSquares;
     grad(Tb)        leastSquares;
+    grad(Tc)        leastSquares;
 }
 
 divSchemes
@@ -45,6 +46,7 @@ divSchemes
     div(phi,T)      Gauss linearUpwind grad(T);
     div(-phi,Ta)     Gauss linearUpwind grad(Ta);
     div(-phi,Tb)     Gauss linearUpwind grad(Tb);
+    div(-phi,Tc)     Gauss linearUpwind grad(Tb);
     div((nuEff*dev2(T(grad(U))))) Gauss linear;
     div((nuEff*dev2(T(grad(Ua))))) Gauss linear;
 }
@@ -69,6 +71,7 @@ fluxRequired
     p;
     pa;
     pb;
+    pc;
     D;
     Da;
 }

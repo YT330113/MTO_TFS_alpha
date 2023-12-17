@@ -85,7 +85,7 @@ volScalarField fsensMeanT
 volScalarField fsenshMeanT(fsensMeanT);
 
 // 热应力相关
-dimensionedScalar Talpha(thermalProperties.lookup("Taplha"));
+dimensionedScalar Talpha(thermalProperties.lookup("Talpha"));
 volScalarField threeKalpha
 (
     IOobject

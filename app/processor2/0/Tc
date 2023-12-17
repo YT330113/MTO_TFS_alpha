@@ -1,0 +1,82 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  6
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      Tc;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 0 1 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    inlet
+    {
+        type            fixedValue;
+        value           nonuniform 0();
+    }
+    outlet
+    {
+        type            groovyBC;
+        refValue        nonuniform 0();
+        refGradient     nonuniform 0();
+        valueFraction   nonuniform 0();
+        value           nonuniform 0();
+        valueExpression "0";
+        gradientExpression "grad_";
+        fractionExpression "f_";
+        evaluateDuringConstruction 0;
+        cyclicSlave     0;
+        variables       
+4
+(
+"k_=DT;"
+"h_=U&normal();"
+"f_=1/(1+k_/(h_*mag(delta())));"
+"grad_=(threeKalpha*Da&normal())/(DT*4180000);"
+)
+;
+        timelines       (
+);
+        lookuptables    (
+);
+        lookuptables2D  (
+);
+    }
+    force
+    {
+        type            zeroGradient;
+    }
+    wall
+    {
+        type            zeroGradient;
+    }
+    sym
+    {
+        type            symmetry;
+    }
+    procBoundary2to1
+    {
+        type            processor;
+        value           uniform 0;
+    }
+    procBoundary2to3
+    {
+        type            processor;
+        value           uniform 0;
+    }
+}
+
+
+// ************************************************************************* //

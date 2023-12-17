@@ -18,6 +18,7 @@ FoamFile
 //MMA的相关参数
 raa0                1e-5;
 voluse              0.2;
+volinit             0.2;
 mma_init            0.3;
 mma_dec             0.7;
 mma_inc             1.2;

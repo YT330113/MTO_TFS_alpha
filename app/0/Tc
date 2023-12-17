@@ -10,7 +10,7 @@ FoamFile
     version     2.0;
     format      ascii;
     class       volScalarField;
-    object      Tc;
+    object      Tc; // 柔度的伴随温度
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -28,11 +28,11 @@ boundaryField
     outlet
     {
        type             groovyBC; // T_face = fractionExpr * valueExpr + (1 - fractionExpr)(T_centre + gradientxpr * delta)
-       variables "k_=DT;h_=U&normal();f_=1/(1+k_/(h_*mag(delta())));";
-       valueExpression  "0";    // the value to be used
-       gradientExpression "0";  // the gradient to be used
-       fractionExpression "f_"; // Determines whether the face is Dirichlet (1) or Neumann (0)
-       value           uniform 0;  //  0时刻时的值，可能会Floating Point Exception
+       variables "k_=DT;h_=U&normal();f_=1/(1+k_/(h_*mag(delta())));grad_=(threeKalpha*Da&normal())/(DT*4180000);";
+       valueExpression  "0";        // the value to be used
+       gradientExpression "grad_";  // the gradient to be used
+       fractionExpression "f_";     // Determines whether the face is Dirichlet (1) or Neumann (0)
+       value           uniform 0;   // 0时刻时的值，可能会Floating Point Exception
     }
     wall
     {
