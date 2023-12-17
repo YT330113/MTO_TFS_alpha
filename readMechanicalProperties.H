@@ -24,6 +24,7 @@ volScalarField mu(qd * (1 - xh) / (qd + xh) * (E - Emin) / (2.0 * (1.0 + Po)) + 
 volScalarField lambda(qd * (1 - xh) / (qd + xh) * Po * (E - Emin) / ((1.0 + Po) * (1.0 - 2.0 * Po)) + Po * Emin / ((1.0 + Po) * (1.0 - 2.0 * Po)));
 
 volScalarField threeK(3 * lambda + 2 * mu);   // 热膨胀相关
+dimensionedScalar b3_c("b3_c", dimensionSet(-1, 3, -1, 0, 0, 0, 0), 1.0);// 柔度灵敏度表达式量纲匹配
 
 Info<< "Reading field D\n" << endl;
 volVectorField D
@@ -101,7 +102,9 @@ volScalarField gsensCompliance
         IOobject::NO_READ,
         IOobject::AUTO_WRITE
     ),
-    -gradD&&(rho*(3*xh*xh*(E-Emin)/(2.0*(1.0 + Po))*twoSymm(gradD))),  // 这里量纲不对，要给成 0 2 -3 0
+    // mesh,
+    // dimensionedScalar(dimensionSet(0, 2, -3, 0, 0, 0, 0), 0),
+    -gradD&&(rho*(3*xh*xh*(E-Emin)/(2.0*(1.0 + Po))*twoSymm(gradD)))*b3_c,  // 这里量纲不对，要给成 0 2 -3 0
     zeroGradientFvPatchScalarField::typeName
 );
 volScalarField gsenshCompliance(gsensCompliance);

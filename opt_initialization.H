@@ -19,7 +19,7 @@ dimensionedScalar b("b", dimensionSet(0, -2, 0, 0, 0, 0, 0), 1.0);   // filter r
 dimensionedScalar b1("b1", dimensionSet(0, 2, -2, -2, 0, 0, 0), 1.0);// 平均温度伴随速度方程量纲匹配
 dimensionedScalar b1_c("b1_c", dimensionSet(0, 2, -2, -2, 0, 0, 0), 1.0);// 柔度伴随速度方程量纲匹配
 dimensionedScalar b2_c("b2_c", dimensionSet(0, -2, 1, 2, 0, 0, 0), 1.0);// 柔度伴随温度方程量纲匹配
-dimensionedScalar b3_c("b3_c", dimensionSet(-1, 3, -1, 0, 0, 0, 0), 1.0);// 柔度灵敏度表达式量纲匹配
+
 double len = std::pow(area / N, 1.0 / 3); // 估算单元平均尺寸
 b.value() = 1.0 / (filterR * len / 3.464) / (filterR * len / 3.464); // PDE过滤参数
 
