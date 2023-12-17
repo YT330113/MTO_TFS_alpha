@@ -1,0 +1,2129 @@
+Making dependency list for source file MTO_TFS.C
+could not open file mpi.h for source file MTO_TFS.C due to No such file or directory
+Making dependency list for source file MMA.C
+could not open file MMA.h for source file MMA/MMA.C due to No such file or directory
+Making dependency list for source file adjTractionDisplacementFvPatchVectorField.C
+could not open file adjTractionDisplacementFvPatchVectorField.H for source file adjTractionDisplacement/adjTractionDisplacementFvPatchVectorField.C due to No such file or directory
+Making dependency list for source file tractionDisplacementFvPatchVectorField.C
+could not open file tractionDisplacementFvPatchVectorField.H for source file tractionDisplacement/tractionDisplacementFvPatchVectorField.C due to No such file or directory
+Making dependency list for source file adjointOutletVelocityPowerFvPatchVectorField.C
+could not open file adjointOutletVelocityPowerFvPatchVectorField.H for source file adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.C due to No such file or directory
+Making dependency list for source file adjointOutletPressurePowerFvPatchScalarField.C
+could not open file adjointOutletPressurePowerFvPatchScalarField.H for source file adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.C due to No such file or directory
+Making dependency list for source file adjointOutletVelocityHeatFvPatchVectorField.C
+could not open file adjointOutletVelocityHeatFvPatchVectorField.H for source file adjointOutletVelocityHeat/adjointOutletVelocityHeatFvPatchVectorField.C due to No such file or directory
+Making dependency list for source file adjointOutletPressureHeatFvPatchScalarField.C
+could not open file adjointOutletPressureHeatFvPatchScalarField.H for source file adjointOutletPressureHeat/adjointOutletPressureHeatFvPatchScalarField.C due to No such file or directory
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c adjointOutletPressureHeat/adjointOutletPressureHeatFvPatchScalarField.C -o Make/linux64GccDPInt32Opt/adjointOutletPressureHeat/adjointOutletPressureHeatFvPatchScalarField.o
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c adjointOutletVelocityHeat/adjointOutletVelocityHeatFvPatchVectorField.C -o Make/linux64GccDPInt32Opt/adjointOutletVelocityHeat/adjointOutletVelocityHeatFvPatchVectorField.o
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.C -o Make/linux64GccDPInt32Opt/adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.o
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.C -o Make/linux64GccDPInt32Opt/adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.o
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c tractionDisplacement/tractionDisplacementFvPatchVectorField.C -o Make/linux64GccDPInt32Opt/tractionDisplacement/tractionDisplacementFvPatchVectorField.o
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c adjTractionDisplacement/adjTractionDisplacementFvPatchVectorField.C -o Make/linux64GccDPInt32Opt/adjTractionDisplacement/adjTractionDisplacementFvPatchVectorField.o
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c MMA/MMA.C -o Make/linux64GccDPInt32Opt/MMA/MMA.o
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h: In constructor ‘MPI::Datatype::Datatype()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1057:27: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DATATYPE_NULL OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_datatype_null)
+                           ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h:69:36: note: in expansion of macro ‘MPI_DATATYPE_NULL’
+   inline Datatype() : mpi_datatype(MPI_DATATYPE_NULL) { }
+                                    ^~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1057:27: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DATATYPE_NULL OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_datatype_null)
+                           ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h:69:36: note: in expansion of macro ‘MPI_DATATYPE_NULL’
+   inline Datatype() : mpi_datatype(MPI_DATATYPE_NULL) { }
+                                    ^~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:193:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h: In member function ‘bool MPI::Datatype::operator==(const MPI::Datatype&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h:81:52: warning: use of old-style cast [-Wold-style-cast]
+     { return (bool) (mpi_datatype == a.mpi_datatype); }
+                                                    ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h: In member function ‘bool MPI::Datatype::operator!=(const MPI::Datatype&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h:84:33: warning: use of old-style cast [-Wold-style-cast]
+     { return (bool) !(*this == a); }
+                                 ^
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h: In constructor ‘MPI::Request::Request()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:756:26: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_REQUEST_NULL OMPI_PREDEFINED_GLOBAL(MPI_Request, ompi_request_null)
+                          ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h:60:27: note: in expansion of macro ‘MPI_REQUEST_NULL’
+   Request() : mpi_request(MPI_REQUEST_NULL) { }
+                           ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:756:26: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_REQUEST_NULL OMPI_PREDEFINED_GLOBAL(MPI_Request, ompi_request_null)
+                          ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h:60:27: note: in expansion of macro ‘MPI_REQUEST_NULL’
+   Request() : mpi_request(MPI_REQUEST_NULL) { }
+                           ^~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:222:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h: In member function ‘bool MPI::Request::operator==(const MPI::Request&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h:72:47: warning: use of old-style cast [-Wold-style-cast]
+   { return (bool)(mpi_request == a.mpi_request); }
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h: In member function ‘bool MPI::Request::operator!=(const MPI::Request&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h:74:30: warning: use of old-style cast [-Wold-style-cast]
+   { return (bool)!(*this == a); }
+                              ^
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h: In constructor ‘MPI::Group::Group()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:754:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_GROUP_NULL OMPI_PREDEFINED_GLOBAL(MPI_Group, ompi_mpi_group_null)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h:61:30: note: in expansion of macro ‘MPI_GROUP_NULL’
+   inline Group() : mpi_group(MPI_GROUP_NULL) { }
+                              ^~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:754:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_GROUP_NULL OMPI_PREDEFINED_GLOBAL(MPI_Group, ompi_mpi_group_null)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h:61:30: note: in expansion of macro ‘MPI_GROUP_NULL’
+   inline Group() : mpi_group(MPI_GROUP_NULL) { }
+                              ^~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:223:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h: In member function ‘bool MPI::Group::operator==(const MPI::Group&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h:72:83: warning: use of old-style cast [-Wold-style-cast]
+   inline bool operator== (const Group &a) { return (bool)(mpi_group == a.mpi_group); }
+                                                                                   ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h: In member function ‘bool MPI::Group::operator!=(const MPI::Group&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h:73:70: warning: use of old-style cast [-Wold-style-cast]
+   inline bool operator!= (const Group &a) { return (bool)!(*this == a); }
+                                                                      ^
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h: In constructor ‘MPI::Comm_Null::Comm_Null()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h:62:33: note: in expansion of macro ‘MPI_COMM_NULL’
+   inline Comm_Null() : mpi_comm(MPI_COMM_NULL) { }
+                                 ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h:62:33: note: in expansion of macro ‘MPI_COMM_NULL’
+   inline Comm_Null() : mpi_comm(MPI_COMM_NULL) { }
+                                 ^~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:224:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h: In member function ‘bool MPI::Comm_Null::operator==(const MPI::Comm_Null&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h:74:45: warning: use of old-style cast [-Wold-style-cast]
+     return (bool) (mpi_comm == data.mpi_comm); }
+                                             ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h: In member function ‘bool MPI::Comm_Null::operator!=(const MPI::Comm_Null&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h:77:34: warning: use of old-style cast [-Wold-style-cast]
+     return (bool) !(*this == data);}
+                                  ^
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win.h: In constructor ‘MPI::Win::Win()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:761:22: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_WIN_NULL OMPI_PREDEFINED_GLOBAL(MPI_Win, ompi_mpi_win_null)
+                      ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win.h:57:19: note: in expansion of macro ‘MPI_WIN_NULL’
+   Win() : mpi_win(MPI_WIN_NULL) { }
+                   ^~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:761:22: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_WIN_NULL OMPI_PREDEFINED_GLOBAL(MPI_Win, ompi_mpi_win_null)
+                      ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win.h:57:19: note: in expansion of macro ‘MPI_WIN_NULL’
+   Win() : mpi_win(MPI_WIN_NULL) { }
+                   ^~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/file.h: In constructor ‘MPI::File::File()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:763:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_FILE_NULL OMPI_PREDEFINED_GLOBAL(MPI_File, ompi_mpi_file_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/file.h:91:21: note: in expansion of macro ‘MPI_FILE_NULL’
+   File() : mpi_file(MPI_FILE_NULL) { }
+                     ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:763:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_FILE_NULL OMPI_PREDEFINED_GLOBAL(MPI_File, ompi_mpi_file_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/file.h:91:21: note: in expansion of macro ‘MPI_FILE_NULL’
+   File() : mpi_file(MPI_FILE_NULL) { }
+                     ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h: In constructor ‘MPI::Errhandler::Errhandler()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:759:29: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_ERRHANDLER_NULL OMPI_PREDEFINED_GLOBAL(MPI_Errhandler, ompi_mpi_errhandler_null)
+                             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h:25:22: note: in expansion of macro ‘MPI_ERRHANDLER_NULL’
+     : mpi_errhandler(MPI_ERRHANDLER_NULL) {}
+                      ^~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:759:29: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_ERRHANDLER_NULL OMPI_PREDEFINED_GLOBAL(MPI_Errhandler, ompi_mpi_errhandler_null)
+                             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h:25:22: note: in expansion of macro ‘MPI_ERRHANDLER_NULL’
+     : mpi_errhandler(MPI_ERRHANDLER_NULL) {}
+                      ^~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:229:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h: In member function ‘bool MPI::Errhandler::operator==(const MPI::Errhandler&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h:42:53: warning: use of old-style cast [-Wold-style-cast]
+     return (bool)(mpi_errhandler == a.mpi_errhandler); }
+                                                     ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h: In member function ‘bool MPI::Errhandler::operator!=(const MPI::Errhandler&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h:45:30: warning: use of old-style cast [-Wold-style-cast]
+     return (bool)!(*this == a); }
+                              ^
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm.h: In constructor ‘MPI::Intercomm::Intercomm()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm.h:30:22: note: in expansion of macro ‘MPI_COMM_NULL’
+   Intercomm() : Comm(MPI_COMM_NULL) { }
+                      ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm.h:30:22: note: in expansion of macro ‘MPI_COMM_NULL’
+   Intercomm() : Comm(MPI_COMM_NULL) { }
+                      ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info.h: In constructor ‘MPI::Info::Info()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:760:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_INFO_NULL OMPI_PREDEFINED_GLOBAL(MPI_Info, ompi_mpi_info_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info.h:57:21: note: in expansion of macro ‘MPI_INFO_NULL’
+   Info() : mpi_info(MPI_INFO_NULL) { }
+                     ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:760:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_INFO_NULL OMPI_PREDEFINED_GLOBAL(MPI_Info, ompi_mpi_info_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info.h:57:21: note: in expansion of macro ‘MPI_INFO_NULL’
+   Info() : mpi_info(MPI_INFO_NULL) { }
+                     ^~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:275:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype_inln.h: In member function ‘virtual MPI::Datatype MPI::Datatype::Create_hvector(int, int, MPI::Aint) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype_inln.h:90:63: warning: use of old-style cast [-Wold-style-cast]
+   (void)MPI_Type_create_hvector(count, blocklength, (MPI_Aint)stride,
+                                                               ^~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype_inln.h: In member function ‘virtual bool MPI::Datatype::Get_attr(int, void*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype_inln.h:349:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(ret);
+          ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/functions_inln.h: In function ‘bool MPI::Is_initialized()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/functions_inln.h:143:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/functions_inln.h: In function ‘bool MPI::Is_finalized()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/functions_inln.h:151:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/functions_inln.h: In function ‘bool MPI::Is_thread_main()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/functions_inln.h:184:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag == 1);
+          ^~~~~~~~~~~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In member function ‘virtual void MPI::Request::Wait()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:35:32: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+   (void)MPI_Wait(&mpi_request, MPI_STATUS_IGNORE);
+                                ^~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In member function ‘virtual bool MPI::Request::Test(MPI::Status&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:49:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^~~~~~~~~~~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In member function ‘virtual bool MPI::Request::Test()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:56:36: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+   (void)MPI_Test(&mpi_request, &t, MPI_STATUS_IGNORE);
+                                    ^~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:57:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^~~~~~~~~~~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static int MPI::Request::Waitany(int, MPI::Request*)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:85:55: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+   (void)MPI_Waitany(count, array_of_requests, &index, MPI_STATUS_IGNORE);
+                                                       ^~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:277:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static bool MPI::Request::Testany(int, MPI::Request*, int&, MPI::Status&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:107:41: warning: use of old-style cast [-Wold-style-cast]
+   return (bool)(flag != 0 ? true : false);
+                                         ^
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static bool MPI::Request::Testany(int, MPI::Request*, int&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:119:7: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+       MPI_STATUS_IGNORE);
+       ^~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:124:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^~~~~~~~~~~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static void MPI::Request::Waitall(int, MPI::Request*)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:773:45: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUSES_IGNORE ((MPI_Status *) 0)
+                                             ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:155:47: note: in expansion of macro ‘MPI_STATUSES_IGNORE’
+   (void)MPI_Waitall(count, array_of_requests, MPI_STATUSES_IGNORE);
+                                               ^~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static bool MPI::Request::Testall(int, MPI::Request*, MPI::Status*)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:181:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^~~~~~~~~~~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static bool MPI::Request::Testall(int, MPI::Request*)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:773:45: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUSES_IGNORE ((MPI_Status *) 0)
+                                             ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:193:54: note: in expansion of macro ‘MPI_STATUSES_IGNORE’
+   (void)MPI_Testall(count, array_of_requests, &flag, MPI_STATUSES_IGNORE);
+                                                      ^~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:200:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^~~~~~~~~~~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static int MPI::Request::Waitsome(int, MPI::Request*, int*)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:773:45: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUSES_IGNORE ((MPI_Status *) 0)
+                                             ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:235:26: note: in expansion of macro ‘MPI_STATUSES_IGNORE’
+        array_of_indices, MPI_STATUSES_IGNORE);
+                          ^~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static int MPI::Request::Testsome(int, MPI::Request*, int*)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:773:45: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUSES_IGNORE ((MPI_Status *) 0)
+                                             ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:277:26: note: in expansion of macro ‘MPI_STATUSES_IGNORE’
+        array_of_indices, MPI_STATUSES_IGNORE);
+                          ^~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In member function ‘virtual bool MPI::Request::Get_status(MPI::Status&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:327:12: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+     return OPAL_INT_TO_BOOL(flag);
+            ^~~~~~~~~~~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In member function ‘virtual bool MPI::Request::Get_status() const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:337:54: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+     (void)MPI_Request_get_status(mpi_request, &flag, MPI_STATUS_IGNORE);
+                                                      ^~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:338:12: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+     return OPAL_INT_TO_BOOL(flag);
+            ^~~~~~~~~~~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual void MPI::Comm::Recv(void*, int, const MPI::Datatype&, int, int) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:45:19: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+    tag, mpi_comm, MPI_STATUS_IGNORE);
+                   ^~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual bool MPI::Comm::Iprobe(int, int, MPI::Status&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:128:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^~~~~~~~~~~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual bool MPI::Comm::Iprobe(int, int) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:135:47: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+   (void)MPI_Iprobe(source, tag, mpi_comm, &t, MPI_STATUS_IGNORE);
+                                               ^~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:136:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^~~~~~~~~~~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual void MPI::Comm::Probe(int, int) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:148:42: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+   (void)MPI_Probe(source, tag, mpi_comm, MPI_STATUS_IGNORE);
+                                          ^~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual void MPI::Comm::Sendrecv(const void*, int, const MPI::Datatype&, int, int, void*, int, const MPI::Datatype&, int, int) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:226:35: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+        source, recvtag, mpi_comm, MPI_STATUS_IGNORE);
+                                   ^~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual void MPI::Comm::Sendrecv_replace(void*, int, const MPI::Datatype&, int, int, int, int) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:248:9: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+         MPI_STATUS_IGNORE);
+         ^~~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual bool MPI::Comm::Is_inter() const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:299:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:278:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In static member function ‘static MPI::Intercomm MPI::Comm::Join(int)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:490:30: warning: use of old-style cast [-Wold-style-cast]
+   (void) MPI_Comm_join((int) fd, &newcomm);
+                              ^~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual bool MPI::Comm::Get_attr(int, void*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:635:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:278:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In static member function ‘static int MPI::Comm::DUP_FN(const MPI::Comm&, int, void*, void*, void*, bool&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:665:22: warning: use of old-style cast [-Wold-style-cast]
+         int f = (int)flag;
+                      ^~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:669:16: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+         flag = OPAL_INT_TO_BOOL(f);
+                ^~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:278:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:674:39: warning: use of old-style cast [-Wold-style-cast]
+                                (int*)&flag);
+                                       ^~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h: In constructor ‘MPI::Intracomm::Intracomm(MPI_Comm)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:25:41: note: in expansion of macro ‘MPI_COMM_NULL’
+   if (MPI::Is_initialized() && (data != MPI_COMM_NULL)) {
+                                         ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:25:41: note: in expansion of macro ‘MPI_COMM_NULL’
+   if (MPI::Is_initialized() && (data != MPI_COMM_NULL)) {
+                                         ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:28:18: note: in expansion of macro ‘MPI_COMM_NULL’
+       mpi_comm = MPI_COMM_NULL;
+                  ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:28:18: note: in expansion of macro ‘MPI_COMM_NULL’
+       mpi_comm = MPI_COMM_NULL;
+                  ^~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:279:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h: In member function ‘virtual MPI::Cartcomm MPI::Intracomm::Create_cart(int, const int*, const bool*, bool) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:105:37: warning: use of old-style cast [-Wold-style-cast]
+     int_periods[i] = (int) periods[i];
+                                     ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:109:27: warning: use of old-style cast [-Wold-style-cast]
+         int_periods, (int)reorder, &newcomm);
+                           ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h: In member function ‘virtual MPI::Graphcomm MPI::Intracomm::Create_graph(int, const int*, const int*, bool) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:120:57: warning: use of old-style cast [-Wold-style-cast]
+                          const_cast<int *>(edges), (int)reorder, &newcomm);
+                                                         ^~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h: In member function ‘virtual MPI::Intercomm MPI::Intracomm::Spawn(const char*, const char**, int, const MPI::Info&, int) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:448:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_ERRCODES_IGNORE      ((int *) 0)           /* don't return error codes */
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:161:11: note: in expansion of macro ‘MPI_ERRCODES_IGNORE’
+    (int *)MPI_ERRCODES_IGNORE);
+           ^~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:448:44: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_ERRCODES_IGNORE      ((int *) 0)           /* don't return error codes */
+                                            ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:161:11: note: in expansion of macro ‘MPI_ERRCODES_IGNORE’
+    (int *)MPI_ERRCODES_IGNORE);
+           ^~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h: In member function ‘virtual MPI::Intercomm MPI::Intracomm::Spawn_multiple(int, const char**, const char***, const int*, const MPI::Info*, int)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:448:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_ERRCODES_IGNORE      ((int *) 0)           /* don't return error codes */
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:194:33: note: in expansion of macro ‘MPI_ERRCODES_IGNORE’
+      mpi_comm, &newcomm, (int *)MPI_ERRCODES_IGNORE);
+                                 ^~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:448:44: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_ERRCODES_IGNORE      ((int *) 0)           /* don't return error codes */
+                                            ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:194:33: note: in expansion of macro ‘MPI_ERRCODES_IGNORE’
+      mpi_comm, &newcomm, (int *)MPI_ERRCODES_IGNORE);
+                                 ^~~~~~~~~~~~~~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h: In constructor ‘MPI::Cartcomm::Cartcomm(ompi_communicator_t* const&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:30:41: note: in expansion of macro ‘MPI_COMM_NULL’
+   if (MPI::Is_initialized() && (data != MPI_COMM_NULL)) {
+                                         ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:30:41: note: in expansion of macro ‘MPI_COMM_NULL’
+   if (MPI::Is_initialized() && (data != MPI_COMM_NULL)) {
+                                         ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:35:18: note: in expansion of macro ‘MPI_COMM_NULL’
+       mpi_comm = MPI_COMM_NULL;
+                  ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:35:18: note: in expansion of macro ‘MPI_COMM_NULL’
+       mpi_comm = MPI_COMM_NULL;
+                  ^~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:280:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h: In member function ‘virtual void MPI::Cartcomm::Get_topo(int, int*, bool*, int*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:73:36: warning: use of old-style cast [-Wold-style-cast]
+     int_periods[i] = (int)periods[i];
+                                    ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:77:18: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+     periods[i] = OPAL_INT_TO_BOOL(int_periods[i]);
+                  ^~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:280:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h: In member function ‘virtual MPI::Cartcomm MPI::Cartcomm::Sub(const bool*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:110:44: warning: use of old-style cast [-Wold-style-cast]
+     int_remain_dims[i] = (int)remain_dims[i];
+                                            ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h: In member function ‘virtual int MPI::Cartcomm::Map(int, const int*, const bool*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:123:37: warning: use of old-style cast [-Wold-style-cast]
+     int_periods[i] = (int) periods[i];
+                                     ^
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h: In constructor ‘MPI::Graphcomm::Graphcomm(ompi_communicator_t* const&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:148:41: note: in expansion of macro ‘MPI_COMM_NULL’
+   if (MPI::Is_initialized() && (data != MPI_COMM_NULL)) {
+                                         ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:148:41: note: in expansion of macro ‘MPI_COMM_NULL’
+   if (MPI::Is_initialized() && (data != MPI_COMM_NULL)) {
+                                         ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:153:18: note: in expansion of macro ‘MPI_COMM_NULL’
+       mpi_comm = MPI_COMM_NULL;
+                  ^~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:153:18: note: in expansion of macro ‘MPI_COMM_NULL’
+       mpi_comm = MPI_COMM_NULL;
+                  ^~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:281:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm_inln.h: In member function ‘virtual MPI::Intracomm MPI::Intercomm::Merge(bool) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm_inln.h:58:44: warning: use of old-style cast [-Wold-style-cast]
+   (void)MPI_Intercomm_merge(mpi_comm, (int)high, &newcomm);
+                                            ^~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm_inln.h: In member function ‘virtual MPI::Intercomm MPI::Intercomm::Create(const MPI::Group&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm_inln.h:71:48: warning: use of old-style cast [-Wold-style-cast]
+   (void) MPI_Comm_create(mpi_comm, (MPI_Group) group, &newcomm);
+                                                ^~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h: In constructor ‘MPI::Op::Op()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:758:21: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_OP_NULL OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_null)
+                     ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:66:24: note: in expansion of macro ‘MPI_OP_NULL’
+ MPI::Op::Op() : mpi_op(MPI_OP_NULL) { }
+                        ^~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:758:21: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_OP_NULL OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_null)
+                     ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:66:24: note: in expansion of macro ‘MPI_OP_NULL’
+ MPI::Op::Op() : mpi_op(MPI_OP_NULL) { }
+                        ^~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:283:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h: In member function ‘bool MPI::Op::operator==(const MPI::Op&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:92:74: warning: use of old-style cast [-Wold-style-cast]
+ MPI::Op::operator== (const MPI::Op &a) { return (bool)(mpi_op == a.mpi_op); }
+                                                                          ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h: In member function ‘bool MPI::Op::operator!=(const MPI::Op&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:95:67: warning: use of old-style cast [-Wold-style-cast]
+ MPI::Op::operator!= (const MPI::Op &a) { return (bool)!(*this == a); }
+                                                                   ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h: In member function ‘virtual void MPI::Op::Init(void (*)(const void*, void*, int, const MPI::Datatype&), bool)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:121:46: warning: use of old-style cast [-Wold-style-cast]
+     (void)MPI_Op_create((MPI_User_function*) ompi_mpi_cxx_op_intercept,
+                                              ^~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:122:31: warning: use of old-style cast [-Wold-style-cast]
+                         (int) commute, &mpi_op);
+                               ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:123:59: warning: use of old-style cast [-Wold-style-cast]
+     ompi_op_set_cxx_callback(mpi_op, (MPI_User_function*) func);
+                                                           ^~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h: In member function ‘virtual bool MPI::Op::Is_commutative() const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:148:19: warning: use of old-style cast [-Wold-style-cast]
+     return (bool) commute;
+                   ^~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/status_inln.h: In member function ‘virtual bool MPI::Status::Is_cancelled() const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/status_inln.h:38:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^~~~~~~~~~~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:285:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/status_inln.h: In member function ‘virtual void MPI::Status::Set_cancelled(bool)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/status_inln.h:103:49: warning: use of old-style cast [-Wold-style-cast]
+     MPI_Status_set_cancelled(&mpi_status, (int) flag);
+                                                 ^~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info_inln.h: In member function ‘virtual bool MPI::Info::Get(const char*, int, char*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info_inln.h:54:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info_inln.h: In member function ‘virtual bool MPI::Info::Get_valuelen(const char*, int&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info_inln.h:76:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h: In member function ‘virtual bool MPI::Win::Test() const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h:152:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h: In member function ‘bool MPI::Win::Get_attr(const MPI::Win&, int, void*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h:262:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(ret);
+          ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h: In member function ‘bool MPI::Win::Get_attr(int, void*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h:272:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(ret);
+          ^~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/file_inln.h: In member function ‘bool MPI::File::Get_atomicity() const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/file_inln.h:43:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^~~~~~~~~~~~~~~~
+In file included from MMA/MMA.C:1:0:
+MMA/MMA.h: In constructor ‘MMA::MMA(int, int)’:
+MMA/MMA.h:42:40: warning: ‘MMA::upp’ will be initialized after [-Wreorder]
+   std::vector<double> xmax, xmin, low, upp, xold1, xold2;
+                                        ^~~
+MMA/MMA.h:42:23: warning:   ‘std::vector<double> MMA::xmax’ [-Wreorder]
+   std::vector<double> xmax, xmin, low, upp, xold1, xold2;
+                       ^~~~
+MMA/MMA.C:20:1: warning:   when initialized here [-Wreorder]
+ MMA::MMA(int NvarLocal, int Mcons)
+ ^~~
+In file included from MMA/MMA.C:1:0:
+MMA/MMA.h:42:29: warning: ‘MMA::xmin’ will be initialized after [-Wreorder]
+   std::vector<double> xmax, xmin, low, upp, xold1, xold2;
+                             ^~~~
+MMA/MMA.h:40:23: warning:   ‘std::vector<double> MMA::alpha’ [-Wreorder]
+  std::vector<double>  alpha, beta, p0, q0, pij, qij, b, grad, hess;
+                       ^~~~~
+MMA/MMA.C:20:1: warning:   when initialized here [-Wreorder]
+ MMA::MMA(int NvarLocal, int Mcons)
+ ^~~
+In file included from MMA/MMA.C:1:0:
+MMA/MMA.h:40:63: warning: ‘MMA::hess’ will be initialized after [-Wreorder]
+  std::vector<double>  alpha, beta, p0, q0, pij, qij, b, grad, hess;
+                                                               ^~~~
+MMA/MMA.h:34:23: warning:   ‘std::vector<double> MMA::a’ [-Wreorder]
+   std::vector<double> a,c;
+                       ^
+MMA/MMA.C:20:1: warning:   when initialized here [-Wreorder]
+ MMA::MMA(int NvarLocal, int Mcons)
+ ^~~
+In file included from MMA/MMA.h:4:0,
+                 from MMA/MMA.C:1:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1062:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_INT OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_int)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:27:37: note: in expansion of macro ‘MPI_INT’
+     MPI_Allreduce(&n, &NvarGlab, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);
+                                     ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1062:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_INT OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_int)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:27:37: note: in expansion of macro ‘MPI_INT’
+     MPI_Allreduce(&n, &NvarGlab, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);
+                                     ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1043:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_SUM OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_sum)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:27:46: note: in expansion of macro ‘MPI_SUM’
+     MPI_Allreduce(&n, &NvarGlab, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);
+                                              ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1043:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_SUM OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_sum)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:27:46: note: in expansion of macro ‘MPI_SUM’
+     MPI_Allreduce(&n, &NvarGlab, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);
+                                              ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1034:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_WORLD OMPI_PREDEFINED_GLOBAL( MPI_Comm, ompi_mpi_comm_world)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:27:55: note: in expansion of macro ‘MPI_COMM_WORLD’
+     MPI_Allreduce(&n, &NvarGlab, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);
+                                                       ^~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1034:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_WORLD OMPI_PREDEFINED_GLOBAL( MPI_Comm, ompi_mpi_comm_world)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:27:55: note: in expansion of macro ‘MPI_COMM_WORLD’
+     MPI_Allreduce(&n, &NvarGlab, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);
+                                                       ^~~~~~~~~~~~~~
+MMA/MMA.C: In member function ‘double MMA::DualResidual(std::vector<double>&, double)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1065:20: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DOUBLE OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_double)
+                    ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:128:39: note: in expansion of macro ‘MPI_DOUBLE’
+     MPI_Allreduce(res, resGlb, 2 * m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                       ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1065:20: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DOUBLE OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_double)
+                    ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:128:39: note: in expansion of macro ‘MPI_DOUBLE’
+     MPI_Allreduce(res, resGlb, 2 * m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                       ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1043:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_SUM OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_sum)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:128:51: note: in expansion of macro ‘MPI_SUM’
+     MPI_Allreduce(res, resGlb, 2 * m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                   ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1043:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_SUM OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_sum)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:128:51: note: in expansion of macro ‘MPI_SUM’
+     MPI_Allreduce(res, resGlb, 2 * m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                   ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1034:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_WORLD OMPI_PREDEFINED_GLOBAL( MPI_Comm, ompi_mpi_comm_world)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:128:60: note: in expansion of macro ‘MPI_COMM_WORLD’
+     MPI_Allreduce(res, resGlb, 2 * m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                            ^~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1034:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_WORLD OMPI_PREDEFINED_GLOBAL( MPI_Comm, ompi_mpi_comm_world)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:128:60: note: in expansion of macro ‘MPI_COMM_WORLD’
+     MPI_Allreduce(res, resGlb, 2 * m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                            ^~~~~~~~~~~~~~
+MMA/MMA.C: In member function ‘void MMA::DualHess(std::vector<double>&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1065:20: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DOUBLE OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_double)
+                    ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:228:59: note: in expansion of macro ‘MPI_DOUBLE’
+     MPI_Allreduce(&hess.front(), &hessGlb.front(), m * m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                           ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1065:20: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DOUBLE OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_double)
+                    ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:228:59: note: in expansion of macro ‘MPI_DOUBLE’
+     MPI_Allreduce(&hess.front(), &hessGlb.front(), m * m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                           ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1043:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_SUM OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_sum)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:228:71: note: in expansion of macro ‘MPI_SUM’
+     MPI_Allreduce(&hess.front(), &hessGlb.front(), m * m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                                       ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1043:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_SUM OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_sum)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:228:71: note: in expansion of macro ‘MPI_SUM’
+     MPI_Allreduce(&hess.front(), &hessGlb.front(), m * m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                                       ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1034:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_WORLD OMPI_PREDEFINED_GLOBAL( MPI_Comm, ompi_mpi_comm_world)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:228:80: note: in expansion of macro ‘MPI_COMM_WORLD’
+     MPI_Allreduce(&hess.front(), &hessGlb.front(), m * m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                                                ^~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1034:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_WORLD OMPI_PREDEFINED_GLOBAL( MPI_Comm, ompi_mpi_comm_world)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:228:80: note: in expansion of macro ‘MPI_COMM_WORLD’
+     MPI_Allreduce(&hess.front(), &hessGlb.front(), m * m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                                                ^~~~~~~~~~~~~~
+MMA/MMA.C: In member function ‘void MMA::DualGrad(std::vector<double>&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1065:20: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DOUBLE OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_double)
+                    ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:334:55: note: in expansion of macro ‘MPI_DOUBLE’
+     MPI_Allreduce(&grad.front(), &gradGlb.front(), m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                       ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1065:20: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DOUBLE OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_double)
+                    ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:334:55: note: in expansion of macro ‘MPI_DOUBLE’
+     MPI_Allreduce(&grad.front(), &gradGlb.front(), m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                       ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1043:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_SUM OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_sum)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:334:67: note: in expansion of macro ‘MPI_SUM’
+     MPI_Allreduce(&grad.front(), &gradGlb.front(), m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                                   ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1043:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_SUM OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_sum)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:334:67: note: in expansion of macro ‘MPI_SUM’
+     MPI_Allreduce(&grad.front(), &gradGlb.front(), m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                                   ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1034:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_WORLD OMPI_PREDEFINED_GLOBAL( MPI_Comm, ompi_mpi_comm_world)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:334:76: note: in expansion of macro ‘MPI_COMM_WORLD’
+     MPI_Allreduce(&grad.front(), &gradGlb.front(), m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                                            ^~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1034:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_WORLD OMPI_PREDEFINED_GLOBAL( MPI_Comm, ompi_mpi_comm_world)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:334:76: note: in expansion of macro ‘MPI_COMM_WORLD’
+     MPI_Allreduce(&grad.front(), &gradGlb.front(), m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                                            ^~~~~~~~~~~~~~
+MMA/MMA.C: In member function ‘void MMA::GenSub(std::vector<double>&, std::vector<double>&, std::vector<double>&, std::vector<std::vector<double> >&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1065:20: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DOUBLE OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_double)
+                    ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:493:49: note: in expansion of macro ‘MPI_DOUBLE’
+     MPI_Allreduce(&b.front(), &sumb.front(), m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                 ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1065:20: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DOUBLE OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_double)
+                    ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:493:49: note: in expansion of macro ‘MPI_DOUBLE’
+     MPI_Allreduce(&b.front(), &sumb.front(), m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                 ^~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1043:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_SUM OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_sum)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:493:61: note: in expansion of macro ‘MPI_SUM’
+     MPI_Allreduce(&b.front(), &sumb.front(), m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                             ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1043:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_SUM OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_sum)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:493:61: note: in expansion of macro ‘MPI_SUM’
+     MPI_Allreduce(&b.front(), &sumb.front(), m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                             ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1034:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_WORLD OMPI_PREDEFINED_GLOBAL( MPI_Comm, ompi_mpi_comm_world)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:493:70: note: in expansion of macro ‘MPI_COMM_WORLD’
+     MPI_Allreduce(&b.front(), &sumb.front(), m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                                      ^~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1034:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_WORLD OMPI_PREDEFINED_GLOBAL( MPI_Comm, ompi_mpi_comm_world)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+MMA/MMA.C:493:70: note: in expansion of macro ‘MPI_COMM_WORLD’
+     MPI_Allreduce(&b.front(), &sumb.front(), m, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD);
+                                                                      ^~~~~~~~~~~~~~
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c MTO_TFS.C -o Make/linux64GccDPInt32Opt/MTO_TFS.o
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h: In constructor ‘MPI::Datatype::Datatype()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1057:27: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DATATYPE_NULL OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_datatype_null)
+                           ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h:69:36: note: in expansion of macro ‘MPI_DATATYPE_NULL’
+   inline Datatype() : mpi_datatype(MPI_DATATYPE_NULL) { }
+                                    ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1057:27: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DATATYPE_NULL OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_datatype_null)
+                           ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h:69:36: note: in expansion of macro ‘MPI_DATATYPE_NULL’
+   inline Datatype() : mpi_datatype(MPI_DATATYPE_NULL) { }
+                                    ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:193:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h: In member function ‘bool MPI::Datatype::operator==(const MPI::Datatype&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h:81:52: warning: use of old-style cast [-Wold-style-cast]
+     { return (bool) (mpi_datatype == a.mpi_datatype); }
+                                                    ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h: In member function ‘bool MPI::Datatype::operator!=(const MPI::Datatype&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype.h:84:33: warning: use of old-style cast [-Wold-style-cast]
+     { return (bool) !(*this == a); }
+                                 ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h: In constructor ‘MPI::Request::Request()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:756:26: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_REQUEST_NULL OMPI_PREDEFINED_GLOBAL(MPI_Request, ompi_request_null)
+                          ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h:60:27: note: in expansion of macro ‘MPI_REQUEST_NULL’
+   Request() : mpi_request(MPI_REQUEST_NULL) { }
+                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:756:26: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_REQUEST_NULL OMPI_PREDEFINED_GLOBAL(MPI_Request, ompi_request_null)
+                          ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h:60:27: note: in expansion of macro ‘MPI_REQUEST_NULL’
+   Request() : mpi_request(MPI_REQUEST_NULL) { }
+                           ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:222:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h: In member function ‘bool MPI::Request::operator==(const MPI::Request&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h:72:47: warning: use of old-style cast [-Wold-style-cast]
+   { return (bool)(mpi_request == a.mpi_request); }
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h: In member function ‘bool MPI::Request::operator!=(const MPI::Request&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request.h:74:30: warning: use of old-style cast [-Wold-style-cast]
+   { return (bool)!(*this == a); }
+                              ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h: In constructor ‘MPI::Group::Group()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:754:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_GROUP_NULL OMPI_PREDEFINED_GLOBAL(MPI_Group, ompi_mpi_group_null)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h:61:30: note: in expansion of macro ‘MPI_GROUP_NULL’
+   inline Group() : mpi_group(MPI_GROUP_NULL) { }
+                              ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:754:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_GROUP_NULL OMPI_PREDEFINED_GLOBAL(MPI_Group, ompi_mpi_group_null)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h:61:30: note: in expansion of macro ‘MPI_GROUP_NULL’
+   inline Group() : mpi_group(MPI_GROUP_NULL) { }
+                              ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:223:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h: In member function ‘bool MPI::Group::operator==(const MPI::Group&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h:72:83: warning: use of old-style cast [-Wold-style-cast]
+   inline bool operator== (const Group &a) { return (bool)(mpi_group == a.mpi_group); }
+                                                                                   ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h: In member function ‘bool MPI::Group::operator!=(const MPI::Group&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/group.h:73:70: warning: use of old-style cast [-Wold-style-cast]
+   inline bool operator!= (const Group &a) { return (bool)!(*this == a); }
+                                                                      ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h: In constructor ‘MPI::Comm_Null::Comm_Null()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h:62:33: note: in expansion of macro ‘MPI_COMM_NULL’
+   inline Comm_Null() : mpi_comm(MPI_COMM_NULL) { }
+                                 ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h:62:33: note: in expansion of macro ‘MPI_COMM_NULL’
+   inline Comm_Null() : mpi_comm(MPI_COMM_NULL) { }
+                                 ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:224:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h: In member function ‘bool MPI::Comm_Null::operator==(const MPI::Comm_Null&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h:74:45: warning: use of old-style cast [-Wold-style-cast]
+     return (bool) (mpi_comm == data.mpi_comm); }
+                                             ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h: In member function ‘bool MPI::Comm_Null::operator!=(const MPI::Comm_Null&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm.h:77:34: warning: use of old-style cast [-Wold-style-cast]
+     return (bool) !(*this == data);}
+                                  ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win.h: In constructor ‘MPI::Win::Win()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:761:22: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_WIN_NULL OMPI_PREDEFINED_GLOBAL(MPI_Win, ompi_mpi_win_null)
+                      ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win.h:57:19: note: in expansion of macro ‘MPI_WIN_NULL’
+   Win() : mpi_win(MPI_WIN_NULL) { }
+                   ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:761:22: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_WIN_NULL OMPI_PREDEFINED_GLOBAL(MPI_Win, ompi_mpi_win_null)
+                      ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win.h:57:19: note: in expansion of macro ‘MPI_WIN_NULL’
+   Win() : mpi_win(MPI_WIN_NULL) { }
+                   ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/file.h: In constructor ‘MPI::File::File()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:763:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_FILE_NULL OMPI_PREDEFINED_GLOBAL(MPI_File, ompi_mpi_file_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/file.h:91:21: note: in expansion of macro ‘MPI_FILE_NULL’
+   File() : mpi_file(MPI_FILE_NULL) { }
+                     ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:763:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_FILE_NULL OMPI_PREDEFINED_GLOBAL(MPI_File, ompi_mpi_file_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/file.h:91:21: note: in expansion of macro ‘MPI_FILE_NULL’
+   File() : mpi_file(MPI_FILE_NULL) { }
+                     ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h: In constructor ‘MPI::Errhandler::Errhandler()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:759:29: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_ERRHANDLER_NULL OMPI_PREDEFINED_GLOBAL(MPI_Errhandler, ompi_mpi_errhandler_null)
+                             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h:25:22: note: in expansion of macro ‘MPI_ERRHANDLER_NULL’
+     : mpi_errhandler(MPI_ERRHANDLER_NULL) {}
+                      ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:759:29: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_ERRHANDLER_NULL OMPI_PREDEFINED_GLOBAL(MPI_Errhandler, ompi_mpi_errhandler_null)
+                             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h:25:22: note: in expansion of macro ‘MPI_ERRHANDLER_NULL’
+     : mpi_errhandler(MPI_ERRHANDLER_NULL) {}
+                      ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:229:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h: In member function ‘bool MPI::Errhandler::operator==(const MPI::Errhandler&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h:42:53: warning: use of old-style cast [-Wold-style-cast]
+     return (bool)(mpi_errhandler == a.mpi_errhandler); }
+                                                     ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h: In member function ‘bool MPI::Errhandler::operator!=(const MPI::Errhandler&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/errhandler.h:45:30: warning: use of old-style cast [-Wold-style-cast]
+     return (bool)!(*this == a); }
+                              ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm.h: In constructor ‘MPI::Intercomm::Intercomm()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm.h:30:22: note: in expansion of macro ‘MPI_COMM_NULL’
+   Intercomm() : Comm(MPI_COMM_NULL) { }
+                      ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm.h:30:22: note: in expansion of macro ‘MPI_COMM_NULL’
+   Intercomm() : Comm(MPI_COMM_NULL) { }
+                      ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info.h: In constructor ‘MPI::Info::Info()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:760:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_INFO_NULL OMPI_PREDEFINED_GLOBAL(MPI_Info, ompi_mpi_info_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info.h:57:21: note: in expansion of macro ‘MPI_INFO_NULL’
+   Info() : mpi_info(MPI_INFO_NULL) { }
+                     ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:760:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_INFO_NULL OMPI_PREDEFINED_GLOBAL(MPI_Info, ompi_mpi_info_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info.h:57:21: note: in expansion of macro ‘MPI_INFO_NULL’
+   Info() : mpi_info(MPI_INFO_NULL) { }
+                     ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:275:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype_inln.h: In member function ‘virtual MPI::Datatype MPI::Datatype::Create_hvector(int, int, MPI::Aint) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype_inln.h:90:63: warning: use of old-style cast [-Wold-style-cast]
+   (void)MPI_Type_create_hvector(count, blocklength, (MPI_Aint)stride,
+                                                               ^~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype_inln.h: In member function ‘virtual bool MPI::Datatype::Get_attr(int, void*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/datatype_inln.h:349:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(ret);
+          ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/functions_inln.h: In function ‘bool MPI::Is_initialized()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/functions_inln.h:143:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/functions_inln.h: In function ‘bool MPI::Is_finalized()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/functions_inln.h:151:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/functions_inln.h: In function ‘bool MPI::Is_thread_main()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/functions_inln.h:184:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag == 1);
+          ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In member function ‘virtual void MPI::Request::Wait()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:35:32: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+   (void)MPI_Wait(&mpi_request, MPI_STATUS_IGNORE);
+                                ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In member function ‘virtual bool MPI::Request::Test(MPI::Status&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:49:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In member function ‘virtual bool MPI::Request::Test()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:56:36: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+   (void)MPI_Test(&mpi_request, &t, MPI_STATUS_IGNORE);
+                                    ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:57:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static int MPI::Request::Waitany(int, MPI::Request*)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:85:55: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+   (void)MPI_Waitany(count, array_of_requests, &index, MPI_STATUS_IGNORE);
+                                                       ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:277:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static bool MPI::Request::Testany(int, MPI::Request*, int&, MPI::Status&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:107:41: warning: use of old-style cast [-Wold-style-cast]
+   return (bool)(flag != 0 ? true : false);
+                                         ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static bool MPI::Request::Testany(int, MPI::Request*, int&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:119:7: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+       MPI_STATUS_IGNORE);
+       ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:124:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static void MPI::Request::Waitall(int, MPI::Request*)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:773:45: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUSES_IGNORE ((MPI_Status *) 0)
+                                             ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:155:47: note: in expansion of macro ‘MPI_STATUSES_IGNORE’
+   (void)MPI_Waitall(count, array_of_requests, MPI_STATUSES_IGNORE);
+                                               ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static bool MPI::Request::Testall(int, MPI::Request*, MPI::Status*)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:181:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static bool MPI::Request::Testall(int, MPI::Request*)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:773:45: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUSES_IGNORE ((MPI_Status *) 0)
+                                             ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:193:54: note: in expansion of macro ‘MPI_STATUSES_IGNORE’
+   (void)MPI_Testall(count, array_of_requests, &flag, MPI_STATUSES_IGNORE);
+                                                      ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:200:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static int MPI::Request::Waitsome(int, MPI::Request*, int*)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:773:45: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUSES_IGNORE ((MPI_Status *) 0)
+                                             ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:235:26: note: in expansion of macro ‘MPI_STATUSES_IGNORE’
+        array_of_indices, MPI_STATUSES_IGNORE);
+                          ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In static member function ‘static int MPI::Request::Testsome(int, MPI::Request*, int*)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:773:45: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUSES_IGNORE ((MPI_Status *) 0)
+                                             ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:277:26: note: in expansion of macro ‘MPI_STATUSES_IGNORE’
+        array_of_indices, MPI_STATUSES_IGNORE);
+                          ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In member function ‘virtual bool MPI::Request::Get_status(MPI::Status&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:327:12: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+     return OPAL_INT_TO_BOOL(flag);
+            ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h: In member function ‘virtual bool MPI::Request::Get_status() const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:337:54: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+     (void)MPI_Request_get_status(mpi_request, &flag, MPI_STATUS_IGNORE);
+                                                      ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/request_inln.h:338:12: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+     return OPAL_INT_TO_BOOL(flag);
+            ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual void MPI::Comm::Recv(void*, int, const MPI::Datatype&, int, int) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:45:19: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+    tag, mpi_comm, MPI_STATUS_IGNORE);
+                   ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual bool MPI::Comm::Iprobe(int, int, MPI::Status&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:128:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual bool MPI::Comm::Iprobe(int, int) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:135:47: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+   (void)MPI_Iprobe(source, tag, mpi_comm, &t, MPI_STATUS_IGNORE);
+                                               ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:136:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual void MPI::Comm::Probe(int, int) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:148:42: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+   (void)MPI_Probe(source, tag, mpi_comm, MPI_STATUS_IGNORE);
+                                          ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual void MPI::Comm::Sendrecv(const void*, int, const MPI::Datatype&, int, int, void*, int, const MPI::Datatype&, int, int) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:226:35: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+        source, recvtag, mpi_comm, MPI_STATUS_IGNORE);
+                                   ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual void MPI::Comm::Sendrecv_replace(void*, int, const MPI::Datatype&, int, int, int, int) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:772:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_STATUS_IGNORE ((MPI_Status *) 0)
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:248:9: note: in expansion of macro ‘MPI_STATUS_IGNORE’
+         MPI_STATUS_IGNORE);
+         ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual bool MPI::Comm::Is_inter() const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:299:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:278:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In static member function ‘static MPI::Intercomm MPI::Comm::Join(int)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:490:30: warning: use of old-style cast [-Wold-style-cast]
+   (void) MPI_Comm_join((int) fd, &newcomm);
+                              ^~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In member function ‘virtual bool MPI::Comm::Get_attr(int, void*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:635:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:278:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h: In static member function ‘static int MPI::Comm::DUP_FN(const MPI::Comm&, int, void*, void*, void*, bool&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:665:22: warning: use of old-style cast [-Wold-style-cast]
+         int f = (int)flag;
+                      ^~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:669:16: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+         flag = OPAL_INT_TO_BOOL(f);
+                ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:278:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/comm_inln.h:674:39: warning: use of old-style cast [-Wold-style-cast]
+                                (int*)&flag);
+                                       ^~~~
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h: In constructor ‘MPI::Intracomm::Intracomm(MPI_Comm)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:25:41: note: in expansion of macro ‘MPI_COMM_NULL’
+   if (MPI::Is_initialized() && (data != MPI_COMM_NULL)) {
+                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:25:41: note: in expansion of macro ‘MPI_COMM_NULL’
+   if (MPI::Is_initialized() && (data != MPI_COMM_NULL)) {
+                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:28:18: note: in expansion of macro ‘MPI_COMM_NULL’
+       mpi_comm = MPI_COMM_NULL;
+                  ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:28:18: note: in expansion of macro ‘MPI_COMM_NULL’
+       mpi_comm = MPI_COMM_NULL;
+                  ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:279:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h: In member function ‘virtual MPI::Cartcomm MPI::Intracomm::Create_cart(int, const int*, const bool*, bool) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:105:37: warning: use of old-style cast [-Wold-style-cast]
+     int_periods[i] = (int) periods[i];
+                                     ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:109:27: warning: use of old-style cast [-Wold-style-cast]
+         int_periods, (int)reorder, &newcomm);
+                           ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h: In member function ‘virtual MPI::Graphcomm MPI::Intracomm::Create_graph(int, const int*, const int*, bool) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:120:57: warning: use of old-style cast [-Wold-style-cast]
+                          const_cast<int *>(edges), (int)reorder, &newcomm);
+                                                         ^~~~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h: In member function ‘virtual MPI::Intercomm MPI::Intracomm::Spawn(const char*, const char**, int, const MPI::Info&, int) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:448:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_ERRCODES_IGNORE      ((int *) 0)           /* don't return error codes */
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:161:11: note: in expansion of macro ‘MPI_ERRCODES_IGNORE’
+    (int *)MPI_ERRCODES_IGNORE);
+           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:448:44: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_ERRCODES_IGNORE      ((int *) 0)           /* don't return error codes */
+                                            ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:161:11: note: in expansion of macro ‘MPI_ERRCODES_IGNORE’
+    (int *)MPI_ERRCODES_IGNORE);
+           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h: In member function ‘virtual MPI::Intercomm MPI::Intracomm::Spawn_multiple(int, const char**, const char***, const int*, const MPI::Info*, int)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:448:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_ERRCODES_IGNORE      ((int *) 0)           /* don't return error codes */
+                                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:194:33: note: in expansion of macro ‘MPI_ERRCODES_IGNORE’
+      mpi_comm, &newcomm, (int *)MPI_ERRCODES_IGNORE);
+                                 ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:448:44: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_ERRCODES_IGNORE      ((int *) 0)           /* don't return error codes */
+                                            ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm_inln.h:194:33: note: in expansion of macro ‘MPI_ERRCODES_IGNORE’
+      mpi_comm, &newcomm, (int *)MPI_ERRCODES_IGNORE);
+                                 ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h: In constructor ‘MPI::Cartcomm::Cartcomm(ompi_communicator_t* const&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:30:41: note: in expansion of macro ‘MPI_COMM_NULL’
+   if (MPI::Is_initialized() && (data != MPI_COMM_NULL)) {
+                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:30:41: note: in expansion of macro ‘MPI_COMM_NULL’
+   if (MPI::Is_initialized() && (data != MPI_COMM_NULL)) {
+                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:35:18: note: in expansion of macro ‘MPI_COMM_NULL’
+       mpi_comm = MPI_COMM_NULL;
+                  ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:35:18: note: in expansion of macro ‘MPI_COMM_NULL’
+       mpi_comm = MPI_COMM_NULL;
+                  ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:280:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h: In member function ‘virtual void MPI::Cartcomm::Get_topo(int, int*, bool*, int*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:73:36: warning: use of old-style cast [-Wold-style-cast]
+     int_periods[i] = (int)periods[i];
+                                    ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:77:18: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+     periods[i] = OPAL_INT_TO_BOOL(int_periods[i]);
+                  ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:280:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h: In member function ‘virtual MPI::Cartcomm MPI::Cartcomm::Sub(const bool*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:110:44: warning: use of old-style cast [-Wold-style-cast]
+     int_remain_dims[i] = (int)remain_dims[i];
+                                            ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h: In member function ‘virtual int MPI::Cartcomm::Map(int, const int*, const bool*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:123:37: warning: use of old-style cast [-Wold-style-cast]
+     int_periods[i] = (int) periods[i];
+                                     ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h: In constructor ‘MPI::Graphcomm::Graphcomm(ompi_communicator_t* const&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:148:41: note: in expansion of macro ‘MPI_COMM_NULL’
+   if (MPI::Is_initialized() && (data != MPI_COMM_NULL)) {
+                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:148:41: note: in expansion of macro ‘MPI_COMM_NULL’
+   if (MPI::Is_initialized() && (data != MPI_COMM_NULL)) {
+                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:153:18: note: in expansion of macro ‘MPI_COMM_NULL’
+       mpi_comm = MPI_COMM_NULL;
+                  ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:755:23: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_NULL OMPI_PREDEFINED_GLOBAL(MPI_Comm, ompi_mpi_comm_null)
+                       ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/topology_inln.h:153:18: note: in expansion of macro ‘MPI_COMM_NULL’
+       mpi_comm = MPI_COMM_NULL;
+                  ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:281:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm_inln.h: In member function ‘virtual MPI::Intracomm MPI::Intercomm::Merge(bool) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm_inln.h:58:44: warning: use of old-style cast [-Wold-style-cast]
+   (void)MPI_Intercomm_merge(mpi_comm, (int)high, &newcomm);
+                                            ^~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm_inln.h: In member function ‘virtual MPI::Intercomm MPI::Intercomm::Create(const MPI::Group&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm_inln.h:71:48: warning: use of old-style cast [-Wold-style-cast]
+   (void) MPI_Comm_create(mpi_comm, (MPI_Group) group, &newcomm);
+                                                ^~~~~
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h: In constructor ‘MPI::Op::Op()’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:758:21: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_OP_NULL OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_null)
+                     ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:66:24: note: in expansion of macro ‘MPI_OP_NULL’
+ MPI::Op::Op() : mpi_op(MPI_OP_NULL) { }
+                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:758:21: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_OP_NULL OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_null)
+                     ^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:66:24: note: in expansion of macro ‘MPI_OP_NULL’
+ MPI::Op::Op() : mpi_op(MPI_OP_NULL) { }
+                        ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:283:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h: In member function ‘bool MPI::Op::operator==(const MPI::Op&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:92:74: warning: use of old-style cast [-Wold-style-cast]
+ MPI::Op::operator== (const MPI::Op &a) { return (bool)(mpi_op == a.mpi_op); }
+                                                                          ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h: In member function ‘bool MPI::Op::operator!=(const MPI::Op&)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:95:67: warning: use of old-style cast [-Wold-style-cast]
+ MPI::Op::operator!= (const MPI::Op &a) { return (bool)!(*this == a); }
+                                                                   ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h: In member function ‘virtual void MPI::Op::Init(void (*)(const void*, void*, int, const MPI::Datatype&), bool)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:121:46: warning: use of old-style cast [-Wold-style-cast]
+     (void)MPI_Op_create((MPI_User_function*) ompi_mpi_cxx_op_intercept,
+                                              ^~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:122:31: warning: use of old-style cast [-Wold-style-cast]
+                         (int) commute, &mpi_op);
+                               ^~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:123:59: warning: use of old-style cast [-Wold-style-cast]
+     ompi_op_set_cxx_callback(mpi_op, (MPI_User_function*) func);
+                                                           ^~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h: In member function ‘virtual bool MPI::Op::Is_commutative() const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:148:19: warning: use of old-style cast [-Wold-style-cast]
+     return (bool) commute;
+                   ^~~~~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/status_inln.h: In member function ‘virtual bool MPI::Status::Is_cancelled() const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/status_inln.h:38:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(t);
+          ^
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:285:0,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/status_inln.h: In member function ‘virtual void MPI::Status::Set_cancelled(bool)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/status_inln.h:103:49: warning: use of old-style cast [-Wold-style-cast]
+     MPI_Status_set_cancelled(&mpi_status, (int) flag);
+                                                 ^~~~
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2704:0,
+                 from MMA/MMA.h:4,
+                 from MTO_TFS.C:9:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info_inln.h: In member function ‘virtual bool MPI::Info::Get(const char*, int, char*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info_inln.h:54:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info_inln.h: In member function ‘virtual bool MPI::Info::Get_valuelen(const char*, int&) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info_inln.h:76:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h: In member function ‘virtual bool MPI::Win::Test() const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h:152:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h: In member function ‘bool MPI::Win::Get_attr(const MPI::Win&, int, void*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h:262:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(ret);
+          ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h: In member function ‘bool MPI::Win::Get_attr(int, void*) const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h:272:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(ret);
+          ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/file_inln.h: In member function ‘bool MPI::File::Get_atomicity() const’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:150:47: warning: use of old-style cast [-Wold-style-cast]
+ #define OPAL_INT_TO_BOOL(VALUE)  ((bool)(VALUE))
+                                               ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/file_inln.h:43:10: note: in expansion of macro ‘OPAL_INT_TO_BOOL’
+   return OPAL_INT_TO_BOOL(flag);
+          ^
+In file included from MMA/MMA.h:4:0,
+                 from MTO_TFS.C:9:
+filter_x.H: In function ‘int main(int, char**)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1065:20: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DOUBLE OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_double)
+                    ^~~~~~~~~~~~~~~~~~~~~~
+filter_x.H:53:27: note: in expansion of macro ‘MPI_DOUBLE’
+ MPI_Allreduce(&d, &dg, 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD); // 计算全局的d
+                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1065:20: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_DOUBLE OMPI_PREDEFINED_GLOBAL(MPI_Datatype, ompi_mpi_double)
+                    ^~~~~~~~~~~~~~~~~~~~~~
+filter_x.H:53:27: note: in expansion of macro ‘MPI_DOUBLE’
+ MPI_Allreduce(&d, &dg, 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD); // 计算全局的d
+                           ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1043:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_SUM OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_sum)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+filter_x.H:53:39: note: in expansion of macro ‘MPI_SUM’
+ MPI_Allreduce(&d, &dg, 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD); // 计算全局的d
+                                       ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1043:17: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_SUM OMPI_PREDEFINED_GLOBAL(MPI_Op, ompi_mpi_op_sum)
+                 ^~~~~~~~~~~~~~~~~~~~~~
+filter_x.H:53:39: note: in expansion of macro ‘MPI_SUM’
+ MPI_Allreduce(&d, &dg, 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD); // 计算全局的d
+                                       ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:72: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                        ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1034:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_WORLD OMPI_PREDEFINED_GLOBAL( MPI_Comm, ompi_mpi_comm_world)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+filter_x.H:53:48: note: in expansion of macro ‘MPI_COMM_WORLD’
+ MPI_Allreduce(&d, &dg, 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD); // 计算全局的d
+                                                ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:314:73: warning: use of old-style cast [-Wold-style-cast]
+ #define OMPI_PREDEFINED_GLOBAL(type, global) ((type) ((void *) &(global)))
+                                                                         ^
+/usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:1034:24: note: in expansion of macro ‘OMPI_PREDEFINED_GLOBAL’
+ #define MPI_COMM_WORLD OMPI_PREDEFINED_GLOBAL( MPI_Comm, ompi_mpi_comm_world)
+                        ^~~~~~~~~~~~~~~~~~~~~~
+filter_x.H:53:48: note: in expansion of macro ‘MPI_COMM_WORLD’
+ MPI_Allreduce(&d, &dg, 1, MPI_DOUBLE, MPI_SUM, MPI_COMM_WORLD); // 计算全局的d
+                                                ^
+MTO_TFS.C: At global scope:
+MTO_TFS.C:3:13: warning: ‘help’ defined but not used [-Wunused-variable]
+ static char help[] = "topology optimization of thermal-fluid-structural problem\n";
+             ^~~~
+In file included from sensitivity.H:11:0,
+                 from MTO_TFS.C:43:
+filter_chainrule.H: In function ‘int main(int, char**)’:
+filter_chainrule.H:47:43: warning: ‘eta5’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        drho[i]=del*Foam::exp(-del*(1-xp[i]/eta5))+Foam::exp(-del);
+In file included from MTO_TFS.C:24:0:
+opt_initialization.H:12:14: note: ‘eta5’ was declared here
+ scalar eta0, eta5, eta1, y0, y5; // heaviside 过滤二分法相关
+              ^~~~
+In file included from sensitivity.H:11:0,
+                 from MTO_TFS.C:43:
+filter_chainrule.H:47:19: warning: ‘del’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        drho[i]=del*Foam::exp(-del*(1-xp[i]/eta5))+Foam::exp(-del);
+                ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from MTO_TFS.C:24:0:
+opt_initialization.H:11:8: note: ‘del’ was declared here
+ double del, d, dg;               // del就是heaviside过滤中的控制参数beta，d，dg用来统计xh的分布情况
+        ^~~
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -Xlinker --add-needed -Xlinker --no-as-needed Make/linux64GccDPInt32Opt/adjointOutletPressureHeat/adjointOutletPressureHeatFvPatchScalarField.o Make/linux64GccDPInt32Opt/adjointOutletVelocityHeat/adjointOutletVelocityHeatFvPatchVectorField.o Make/linux64GccDPInt32Opt/adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.o Make/linux64GccDPInt32Opt/adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.o Make/linux64GccDPInt32Opt/tractionDisplacement/tractionDisplacementFvPatchVectorField.o Make/linux64GccDPInt32Opt/adjTractionDisplacement/adjTractionDisplacementFvPatchVectorField.o Make/linux64GccDPInt32Opt/MMA/MMA.o Make/linux64GccDPInt32Opt/MTO_TFS.o -L/opt/openfoam6/platforms/linux64GccDPInt32Opt/lib \
+    -lturbulenceModels -lincompressibleTurbulenceModels -lincompressibleTransportModels -lfiniteVolume -lmeshTools -lfvOptions  -lOpenFOAM -ldl  \
+     -lm -o /home/yantao/OpenFOAM/yantao-6/platforms/linux64GccDPInt32Opt/bin/MTO_TFS_alpha

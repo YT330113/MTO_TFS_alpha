@@ -1,23 +1,34 @@
 {
-    "configurations": [
-        {
-            "name": "Linux",
-            "includePath": [
-                "${workspaceFolder}/**",
-                "/opt/openfoam6/src/**",
-                "/usr/lib/gcc/**",
-                "/usr/lib/gcc/x86_64-linux-gnu/7/include/**",
-                "/usr/local/include/**",
-                "/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/**",
-                "/usr/include/x86_64-linux-gnu/**",
-                "/usr/include/**"
-            ],
-            "defines": [],
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "c11",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "linux-gcc-x64"
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "/opt/openfoam6/src/OSspecific/POSIX/lnInclude",
+        "/opt/openfoam6/src/OpenFOAM/lnInclude",
+        "/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude",
+        "/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude",
+        "/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude",
+        "/opt/openfoam6/src/finiteVolume/lnInclude",
+        "/opt/openfoam6/src/meshTools/lnInclude",
+        "/opt/openfoam6/src/transportModels",
+        "/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel",
+        "./**",
+        // 以上为opextension插件自动生成
+        // "${workspaceFolder}/**",
+        // "/opt/openfoam6/src/**",
+        "/usr/lib/gcc/**",
+        "/usr/lib/gcc/x86_64-linux-gnu/7/include/**",
+        "/usr/local/include/**",
+        "/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/**",
+        "/usr/include/x86_64-linux-gnu/**",
+        "/usr/include/**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c11",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
 }
