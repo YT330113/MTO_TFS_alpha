@@ -5,6 +5,7 @@ std::remove("MeanT.txt");
 std::remove("PowerDiss.txt"); 
 std::remove("Compliance.txt"); 
 std::remove("lisan.txt");
+std::remove("Sensitivity.txt");
 
 // 一些常量
 int i = 0, opt = 0, rex;         // 迭代计数

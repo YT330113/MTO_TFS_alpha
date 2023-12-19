@@ -22,18 +22,30 @@ if(fluid_area)
 }
 
 // //灵敏度归一化
-if (opt<300)
-{
-fsenshMeanT=fsenshMeanT/fvc::domainIntegrate(mag(fsenshMeanT)).value()*area/100000;
-gsenshPowerDiss=gsenshPowerDiss/fvc::domainIntegrate(mag(gsenshPowerDiss)).value()*area/100000;
-gsenshCompliance=gsenshCompliance/fvc::domainIntegrate(mag(gsenshCompliance)).value()*area/100000;
-gsenshVol=gsenshVol/100000;
-}
-else
-{
+// if (opt<300)
+// {
+// fsenshMeanT=fsenshMeanT/fvc::domainIntegrate(mag(fsenshMeanT)).value()*area/100000;
+// gsenshPowerDiss=gsenshPowerDiss/fvc::domainIntegrate(mag(gsenshPowerDiss)).value()*area/100000;
+// gsenshCompliance=gsenshCompliance/fvc::domainIntegrate(mag(gsenshCompliance)).value()*area/100000;
+// gsenshVol=gsenshVol/100000;
+// }
+// else
+// {
 gsenshPowerDiss=gsenshPowerDiss/gMax(mag(gsenshPowerDiss.primitiveField()));
-gsenshCompliance=gsenshCompliance/gMax(mag(gsenshCompliance.primitiveField()));
+gsenshCompliance=gsenshCompliance/gMax(mag(gsenshCompliance.primitiveField()))/100;
+gsenshVol=gsenshVol/gMax(mag(gsenshVol.primitiveField()))/10000;
 fsenshMeanT=fsenshMeanT/gMax(mag(fsenshMeanT.primitiveField()));
+// }
+
+if (Pstream::master())
+{
+   ofstream outfile1("Sensitivity.txt", std::ios::app);
+   outfile1 << opt << '\t' << fsenshMeanT[222]
+                   << '\t' << gsenshPowerDiss[222]
+                   << '\t' << gsenshCompliance[222]
+                   << '\t' << gsenshVol[222]
+                   << "\n";
+   outfile1.close();
 }
 
 //Heaviside过滤的链式求导

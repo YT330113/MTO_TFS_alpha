@@ -41,7 +41,8 @@
         "adjointOutletVelocityHeatFvPatchVectorField.C": "cpp",
         "adjointOutletVelocityPowerFvPatchVectorField.C": "cpp",
         "adjointOutletPressureComplianceFvPatchScalarField.C": "cpp",
-        "adjointOutletVelocityComplianceFvPatchVectorField.C": "cpp"
+        "adjointOutletVelocityComplianceFvPatchVectorField.C": "cpp",
+        "iosfwd": "cpp"
     },
     "C_Cpp.default.includePath": [
         "${workspaceFolder}/**",
